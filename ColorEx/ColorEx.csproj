@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>Sletting.Extensions.$(AssemblyName).</PackageId>
+    <PackageId>Sletting.Extensions.$(AssemblyName)</PackageId>
     <Authors>Sletting</Authors>
     <Description>A library for extending the functionalities of the System.Drawing.Color class.
 Methods include removing specific channels, getting complementary colors and more.</Description>
