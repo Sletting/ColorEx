@@ -7,7 +7,7 @@
     <Description>A library for extending the functionalities of the System.Drawing.Color class.
 Methods include removing specific channels, getting complementary colors and more.</Description>
     <Copyright>MIT</Copyright>
-    <PackageIcon>ColorExIcon.png</PackageIcon>
+    <PackageIcon>ColorExIconSmall.png</PackageIcon>
     <PackageProjectUrl>https://github.com/Sletting/ColorEx</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Sletting/ColorEx</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -15,7 +15,7 @@ Methods include removing specific channels, getting complementary colors and mor
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Users\jonas\Documents\ColorExIcon.png">
+    <None Include="..\..\..\..\Users\jonas\Documents\ColorExIconSmall.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
