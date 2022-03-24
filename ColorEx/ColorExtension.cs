@@ -1,4 +1,6 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
+using System.Linq;
 
 namespace ColorEx
 {
@@ -8,14 +10,15 @@ namespace ColorEx
     public static class ColorExtension
     {
         /// <summary>
-        /// Returns the complimentary color.
-        /// #Note does not return the complimentary color right now. TBA.
+        /// Returns the complementary color.
         /// </summary>
-        /// <param name="color">The color to get complimentary color from.</param>
-        /// <returns>The complimentary color.</returns>
-        public static Color GetComplimentaryColor(this Color color)
+        /// <param name="color">The color to get complementary color from.</param>
+        /// <returns>The complementary color.</returns>
+        public static Color GetComplementaryColor(this Color color)
         {
-            return Color.FromArgb(color.A, color.R, color.G, color.B);
+            byte[] bytes = new byte[3] { color.R, color.G, color.B };
+            int calc = bytes.Max() + bytes.Min();
+            return Color.FromArgb(color.A, calc - color.R, calc - color.G, calc - color.B);
         }
 
         /// <summary>
