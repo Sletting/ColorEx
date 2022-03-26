@@ -13,6 +13,7 @@ Methods include removing specific channels, getting complementary colors and mor
     <RepositoryType>git</RepositoryType>
     <PackageTags>Color, Extension, Colors, Colour, Colours</PackageTags>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<Title>ColorEx</Title>
   </PropertyGroup>
 
   <ItemGroup>
